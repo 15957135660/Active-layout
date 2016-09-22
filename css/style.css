@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS 重置 */
+html,body,div,ul,li,dl,dt,dd,span,img,a,em,i{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none; color:#009bda;}
+a:hover{ color:#525050;}
+img{ vertical-align:baseline; border:0 none;}
+body{ font-family:"微软雅黑"; font-size:12px; color:#525050; background:#f2f2f2;}
+.clearfix{ *zoom:1;}
+.clearfiz:after{ content:"."; visibility:hidden; height:0; display:block; font-size:0; clear:both;}
+/*主体*/
+.main{ width:995px; height:auto; border:#e1e1e1 1px solid; margin:8px auto 0;background:#fff; border-radius:2px;}
+.main-tit{ width:965px; height:29px; padding:16px 0 0 7px; border-bottom:#e1e1e1 2px solid; margin-left:10px; font-size:14px; font-weight:500;}
+.main-tit a{   display:block; color:#878787; width:230px; height:15px;background:url(../images/tit-bg.png) no-repeat top right; line-height:15px;}
+.main-list{ width:100%; overflow:hidden; padding-bottom:1px; background:#fff;}
+.main-list ul{ width:110%;}
+.main-list ul li{   width:305px; height:301px; background:url(../images/list-bg.png); margin:10px 17px 12px 11px; float:left; padding-top:6px; position:relative;}
+.m-l-img{ margin-left:6px;}
+.main-list dl{ margin-top:5px;}
+.main-list dt{ display: block; width:86px; height:15px; background:url(../images/line.png) no-repeat left bottom; font-size:13px; padding:6px 0 0 5px; margin-bottom:9px; margin-left:9px;}
+.main-list dd{ line-height:17px; margin-left:8px;}
+.btn{ display:block; background:url(../images/btn.png); width:116px; height:30px; position:absolute; left:71px; bottom:16px; color:#fff; text-align:center; line-height:30px;}
+.vip{ background:url(../images/VIP.png) no-repeat; position:absolute; left:0; top:0; width:66px; height:65px;}
+ 
